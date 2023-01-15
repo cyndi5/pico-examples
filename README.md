@@ -277,3 +277,9 @@ At the time of writing, there is only one host example available:
 App|Description
 ---|---
 [hello_watchdog](watchdog/hello_watchdog) | Set the watchdog timer, and let it expire. Detect the reboot, and halt.
+
+### Cynthia
+
+App|Description
+---|---
+[digital_display](cynthia/digital_display) | Exercise the Elenco Electronic Playground EP-130 Digital Display.
