@@ -2,8 +2,14 @@
 
 ## Overview
 
-Exercises the 7-segment LED digital display on the Elenco Electronic Playground EP-130 project kit. The wiring I used is as follows:
-RP Pico W Pin|Display Pin|EP-130 Spring Terminal
+Exercises the 7-segment LED digital display on the Elenco Electronic Playground EP-130 project kit. 
+
+### Connections
+
+*Note*: The Electronic Playground's digital display is a common-cathode 7-segment LED display with right hand decimal point, mounted on a PC board with each segment/decimal point having a 360 ohm series resistor.
+
+The wiring I used is as follows:
+RP Pico W Pin|Display Pin*|EP-130 Spring Terminal
 ---|---|---
 GND|cathode|25
 GP0|dp|24
@@ -15,7 +21,9 @@ GP5|e|19
 GP6|f|18
 GP7|g|22
 
+\* with 360 ohm resistor in series
 ### Digital Display Segments
+Digital displays have standard lettering for each segment, as in the following illustration:
 ```
     a
    ---
