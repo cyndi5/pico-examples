@@ -1,1 +1,2 @@
 add_subdirectory(digital_display)
+add_subdirectory(debug_usb)
